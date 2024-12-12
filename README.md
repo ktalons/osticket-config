@@ -23,28 +23,28 @@
 
 <h2>Post-Install Configuration Objectives</h2>
 
-1. Configure Roles
+1. Configure Roles ✔️
   - Grouping Permissions
     > Admin Panel -> Agents -> Roles, create 'King Admin' Role
-2. Configure Departments
+2. Configure Departments ✔️
   - Ticket Visibility, Help Desk vs SysAdmins vs Networking 
     > Admin Panel -> Agents -> Departments, create 'SysAdmins' Department
-3. Configure Teams
+3. Configure Teams ✔️
   - Pull Agents from different Departments 
     > Admin Panel -> Agents -> Teams, create 'Online Banking' Team
-4. Allow all to create a ticket
+4. Allow all to create a ticket ✔️
     > Admin Panel -> Settings -> User Settings, uncheck 'unregistered users can create tickets' 
-5. Configure Agents 'empolyees' & Configure Users 'customers'
+5. Configure Agents 'empolyees' & Configure Users 'customers' ✔️
   - Jenny, Department: SysAdmins & Johnny, Department: Support
     > Admin Panel -> Agents -> Add New
   - Ken & Karen
     > Agent Panel -> Users -> Add New
-6. Configure SLA
+6. Configure SLA ✔️
   - Sev-A, Grace Period: 1 hour, Schedule: 24/7
   - Sev-B, Grace Period: 4 hours, Schedule: 24/7
   - Sev-C, Grace Period: 8 hours, Schedule: 24/7
      > Admin Panel -> Manage -> SLA
-7. Configure Help Topics for Users creating tickets
+7. Configure Help Topics for Users creating tickets ✔️
   - Business Critical Outage
   - Personal Computer Issues
   - Equipment Request
@@ -60,7 +60,7 @@
 
 1️⃣ Configure Roles, Departments, and Teams ⤵️
 > 1. To group permissions, sign in to Admin Login Page. Follow path Admin Panel -> Agents -> Roles, click `Add New Agent`. Enter **Name**, **Email**, and check desired permissions on next tab.
-> 2. To configure ticket visibility, follow path Admin Panel -> Agents -> Departments, click `Add New Department`. Choose **Parent** department from dropdown, fill out **Name**, and select **Type**. Configure other various optional new department settings. 
+> 2. To configure ticket visibility, follow path Admin Panel -> Agents -> Departments, click `Add New Department`. Choose **Parent** department from dropdown, fill out **Name**, and select **Type**. Configure other optional department settings if needed. 
 > 3. To assign different Agents to specific teams within department and roles, follow path Admin Panel -> Agents -> Teams,  click `Add New Team`. Enter **Name** and **Status**.
 ---
 
